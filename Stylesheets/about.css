@@ -1,0 +1,113 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+}
+/* Navbar */
+nav {
+  background-color: rgba(255, 255, 255, 1);
+  min-height: 64px;
+
+}
+.material-icons {
+  vertical-align: middle;
+  margin-top: 5px;
+}
+nav ul li a {
+  color: rgb(0, 0, 0);
+  font-family: 'Righteous', cursive;
+  font-size: 25px;
+}
+#sidenav-overlay {
+    background-color: transparent;
+}
+nav img {
+  height: 60px;
+  width: 60px;
+  align-items: center;
+  margin-top: 2px;
+}
+/* End Of Navbar */
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+}
+/* Navbar */
+nav {
+  background-color: rgba(255, 255, 255, 1);
+  min-height: 64px;
+
+}
+.material-icons {
+  vertical-align: middle;
+  margin-top: 5px;
+}
+nav ul li a {
+  color: rgb(0, 0, 0);
+  font-family: 'Righteous', cursive;
+  font-size: 25px;
+}
+#sidenav-overlay {
+    background-color: transparent;
+}
+nav img {
+  height: 60px;
+  width: 60px;
+  align-items: center;
+  margin-top: 2px;
+}
+/* End Of Navbar */
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+}
+/* Navbar */
+nav {
+  background-color: rgba(255, 255, 255, 1);
+  min-height: 64px;
+
+}
+.material-icons {
+  vertical-align: middle;
+  margin-top: 5px;
+}
+nav ul li a {
+  color: rgb(0, 0, 0);
+  font-family: 'Righteous', cursive;
+  font-size: 25px;
+}
+#sidenav-overlay {
+    background-color: transparent;
+}
+nav img {
+  height: 60px;
+  width: 60px;
+  align-items: center;
+  margin-top: 2px;
+}
+/* End Of Navbar */
+
+/*Footer */
+footer .section {
+  min-height: 200px;
+}
+footer img {
+  margin-top: 25px;
+  height: 50px;
+}
+h3 {
+  color: rgb(0, 0, 0);
+  font-family: 'Just Another Hand', cursive;
+  font-size: 45px;
+}

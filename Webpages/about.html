@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>ABOUT US</title>
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+
+    <link rel="stylesheet" href="../Stylesheets/about.css" type="text/css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pompiere" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Just+Another+Hand" rel="stylesheet">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+  <body>
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+
+    <!-- Navbar -->
+    <nav class="white">
+  <div class="nav-wrapper">
+    <a href="../index.html" class="brand-logo"><img src="../Images/Octagon-Logo.png" alt="Octagon Logo"></a>
+    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons black-text">menu</i></a>
+    <ul class="right hide-on-med-and-down">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+      <li><a href="about.html">About Us</a></li>
+    </ul>
+    <ul class="side-nav" id="mobile-demo">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+      <li><a href="../about.html">About Us</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Cards -->
+<div class="row">
+  <div class="col s12 m12 xyz">
+    <div class="card">
+      <div class="card-image">
+        <img src="https://static.pexels.com/photos/30732/pexels-photo-30732.jpg">
+      </div>
+      <div class="card-content">
+        <p></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Footer -->
+<footer>
+  <div class="section-white">
+    <center>
+
+      <!-- Footer Icons -->
+      <a href="tel:"><img src="../Images/Icons/phone.png" alt="phone icon"></a>
+       <a href="intent://send/91#Intent;scheme=smsto;package=com.whatsapp;action=android.intent.action.SENDTO;end"><img src="../Images/Icons/whatsapp.png" alt="whatsapp icon"></a>
+      <h3>©OctagonDesign</h3>
+    </center>
+  </div>
+</footer>
+<script>
+ $( document ).ready(function() {
+   console.log( "ready!" );
+   $(".button-collapse").sideNav();
+    $('.parallax').parallax();
+     $('.slider').slider();
+});
+</script>
+</body>
+</html>

@@ -32,31 +32,12 @@ nav img {
 }
 /* End Of Navbar */
 
-/* Parallax */
-@media only screen and (max-width: 480px) {
-.parallax-desktop {display:none}
-.parallax-mobile {display: block}
+th{
+  font-family: 'Pompiere';
+  font-size: 30px;
+  padding-left:190px;
+  padding-top:20px;
 }
-
-/* Special Rules for Desktops */
-@media only screen and (min-width: 1024px) {
-.parallax-desktop {display:block}
-.parallax-mobile  {display: none}
-}
-
-.parallax-desktop {
-  min-height: 500px;
-}
-
-/* Parallax heading */
-h2{
-  font-family: 'Pompiere', cursive;
-}
-
-h1{
-  font-family: 'Luckiest Guy', cursive;
-}
-
 /*Footer */
 footer .section {
   min-height: 200px;
