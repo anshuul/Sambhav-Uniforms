@@ -33,10 +33,9 @@ nav img {
 /* End Of Navbar */
 
 .index-img {
-  width: 100%;
+  max-height: 1200px;
+  max-width: 3000px;
 }
-
-
 /* Parallax heading */
 h2{
   font-family: 'Pompiere', cursive;
