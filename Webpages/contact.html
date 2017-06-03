@@ -1,0 +1,140 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Home</title>
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+
+    <link rel="stylesheet" href="../Stylesheets/contact.css" type="text/css">
+
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pompiere" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Just+Another+Hand" rel="stylesheet">
+
+
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+  <body>
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+
+
+    <!-- Navbar -->
+    <nav class="white">
+  <div class="nav-wrapper">
+    <a href="index.html" class="brand-logo"><img src="Images/Octagon-Logo.png" alt="Octagon Logo"></a>
+    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons black-text">menu</i></a>
+    <ul class="right hide-on-med-and-down">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="Webpages/gallery.html">Gallery</a></li>
+      <li><a href="Webpages/contact.html">Contact Us</a></li>
+      <li><a href="Webpages/about.html">About Us</a></li>
+    </ul>
+    <ul class="side-nav" id="mobile-demo">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="Webpages/gallery.html">Gallery</a></li>
+      <li><a href="Webpages/contact.html">Contact Us</a></li>
+      <li><a href="Webpages/about.html">About Us</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Heading -->
+<!-- materials -->
+ <div class="section-white">
+   <center>
+     <h1>Contact Us</h1>
+     <h2>Fill out the from below so that we can get in touch with you.</h2>
+   </center>
+ </div>
+
+
+<!--Contact Us Form -->
+      <div class="row">
+
+    <form class="col s12" method="post" name="contact_form"
+    action="../PHP/contact-form.php">
+
+    <div class="row">
+            <div class="input-field col s6">
+              <input type="text" name="first_name" placeholder="First Name">
+              <label for="first_name">First Name</label>
+            </div>
+            <div class="input-field col s6">
+              <input id="last_name" name="last_name" type="text" class="validate" placeholder="Last Name">
+              <label for="last_name">Last Name</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="email" type="email" name="email" placeholder="Email" class="validate">
+              <label for="email">Email</label>
+            </div>
+            <div class="input-field col s6">
+                      <i class="material-icons prefix">phone</i>
+                      <input id="icon_mobile" name="mobile" type="tel" class="validate">
+                      <label for="icon_telephone">Mobile No.</label>
+                    </div>
+            <div class="input-field col s6">
+                      <i class="material-icons prefix">phone</i>
+                      <input id="icon_mobile" name="landline" type="tel" class="validate">
+                      <label for="icon_telephone">Landline No.</label>
+                      </div>
+
+            <div class="input-field col s12">
+                      <select name="uniform_type">
+                          <option value="" disabled selected>Select the type of Uniforms you require</option>
+                          <option value="Boys Uniforms">Boys Uniforms</option>
+                          <option value="Girls Uniforms">Girls Uniforms</option>
+                          <option value="Both">Both</option>
+                      </select>
+                      <label>Uniform Types</label>
+                        </div>
+
+            <div class="row">
+                      <div class="input-field col s12">
+                        <textarea id="textarea1" name="comment" class="materialize-textarea"></textarea>
+                        <label for="textarea1">Comment</label>
+                      </div>
+            </div>
+
+                <button class="btn waves-effect waves-light" type="submit" value="Submit" name="action">Submit
+
+                </button>
+      </form>  </div>
+
+
+
+
+
+<!-- Footer -->
+<footer>
+  <div class="section-white">
+    <center>
+
+      <!-- Footer Icons -->
+      <a href="tel:"><img src="../Images/Icons/phone.png" alt="phone icon"></a>
+       <a href="intent://send/91#Intent;scheme=smsto;package=com.whatsapp;action=android.intent.action.SENDTO;end"><img src="../Images/Icons/whatsapp.png" alt="whatsapp icon"></a>
+      <h3>©OctagonDesign</h3>
+    </center>
+  </div>
+</footer>
+<script>
+ $( document ).ready(function() {
+   console.log( "ready!" );
+   $(".button-collapse").sideNav();
+   $('select').material_select();
+});
+</script>
+</body>
+</html>
